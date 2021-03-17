@@ -117,10 +117,11 @@ function guess(btn){
       winGame();
     }else if(guessCounter === progress){
       progress++;
+      startGame();
     }else{
       guessCounter++;
     }
-    startGame();
+   
   }
   
   
