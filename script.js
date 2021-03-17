@@ -117,7 +117,7 @@ function guess(btn){
       winGame();
     }else if(guessCounter === progress){
       progress++;
-      startGame();
+      playClueSequence();
     }else{
       guessCounter++;
     }
