@@ -60,3 +60,19 @@ button{
 #button4:active, #button4.lit{
   background: yellow;
 }
+
+#button5{
+  background: grey;
+}
+
+#button5:active, #button5.lit{
+  background: black;
+}
+
+#button6{
+  background: magenta;
+}
+
+#button6:active, #button6.lit{
+  background: purple;
+}
