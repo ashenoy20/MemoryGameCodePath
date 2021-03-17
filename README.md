@@ -44,11 +44,15 @@ Here's a walkthrough of implemented user stories:
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
+
 A resource that was extremely helpful was MDN, which is Mozilla Developer Network that gives excellent documentation on the all the syntax 
 related questions about HTML, CSS, and Javascript. Other than that, the little tutorials on certain concepts were more than enough to complete 
 task.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
+
 A challenge I had was trying to piece together the logic of the memory game. We were given the bulk of the code to begin with but there was also 
 an effort to understand how a block of code played a role in how the game works. It took me some time to understand the entire project as a whole
 and why you guys made the format this kind of way. How I overcame this obstacle was by looking at the segements of code block by block and see 
@@ -59,6 +63,7 @@ with each other, the logic was actually very easy to implement. This goes to sho
 work together as it is very important to the know the little segements before learning the entire picture.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
+
 Personally its to where to go after HTML, CSS, and Frontend Javascript. There is so many tech stacks in the industry being used and I want to know
 how does one choose which stack to choose from. I feel that it may come down to the situation as certain technologies have advantages over others but I would
 love to hear a professional opinion to add to my current knowledge. I personally went the MERN stack route, where I developed a web app that had Express and MongoDB
@@ -66,6 +71,7 @@ as the backend and EJS, HTML, CSS, and frontend Javascript for the frontend. I a
 to learn more about other tech stacks because the industry offers a wide variety to choose from. 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+
 If I had a few more hours, I would focus on cleanliness as readability is important when others try to read your code. Since this industry is all about
 teamwork, all the members must be on the same page and be able to undertsand what you have written, otherwise that is a recipe for chaos. I would definitely
 provide documentation to the functions we used in the JS file as we need to let the people know what does this functions specifically do and what is it 
