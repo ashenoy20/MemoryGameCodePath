@@ -26,7 +26,7 @@ function startGame(){
 function stopGame(){
     //initialize game variables
     progress = 0;
-    gamePlaying = true;
+    gamePlaying = false;
     // swap the Start and Stop buttons
     document.getElementById("startBtn").classList.remove("hidden");
     document.getElementById("stopBtn").classList.add("hidden");
@@ -110,6 +110,19 @@ function guess(btn){
   if(!gamePlaying){
     return;
   }
+  if(btn != pattern[guessCounter]){
+    loseGame();
+  }else{
+    if((guessCounter === progress) && progress === pattern.length-1){
+      winGame();
+    }else if(guessCounter === progress){
+      progress++;
+    }else{
+      guessCounter++;
+    }
+    startGame();
+  }
+  
   
   
   
