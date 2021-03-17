@@ -110,6 +110,7 @@ function guess(btn){
   if(!gamePlaying){
     return;
   }
-
-  // add game logic here
+  
+  
+  
 }
